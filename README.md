@@ -22,11 +22,11 @@ Anomaly Score is based on residual and discrimination losses.
 - Residual loss: L1 distance between generated image by z and unseen test image.
 - Discrimination loss: L1 distacne between hidden representations of generated and test image, extracted by discriminators.
 
-[Res_Loss](./assets/res_loss.jpeg)
-[Discrimination Loss](./assets/dis_loss.jpeg)
+![Res_Loss](./assets/res_loss.jpeg)
+![Discrimination Loss](./assets/dis_loss.jpeg)
 
-Total Loss for finding latent variable z is weighted sum of the two.
-[Total Loss](./assets/t_loss.jpeg)
+Total Loss for finding latent variable z is weighted sum of the two. (defualt lambda = 0.1)
+![Total Loss](./assets/t_loss.jpeg)
 
 ## File Descriptions
 - main.py : Main function of implementations, contained argument parsers, model construction, and test.
