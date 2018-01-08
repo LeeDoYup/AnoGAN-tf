@@ -10,12 +10,12 @@ Thanks for github.com/carpedm20, cuz he share basic guide line to implement DCGA
 
 Basic structure of this implementation is based on his implementations.
 
-*(Anomaly Detection of MNIST is not yet available)
+* (Anomaly Detection of MNIST is not yet available)
 
 ## Model Description
 After learn DCGAN model with normal dataset (not contains anomalies), 
 
-*Anomaly Detector calculates anomaly score of unseen images.
+* Anomaly Detector calculates anomaly score of unseen images.
 
 
 ![Model Structure](./assets/model_structure.jpeg)
