@@ -102,6 +102,6 @@ Eyes, mouth, and distorted parts in image were detected.
 ![result](./assets/result_example.jpeg)
 
 ## Related works
-- [Image Style Trnasfer](https://pdfs.semanticscholar.org/7568/d13a82f7afa4be79f09c295940e48ec6db89.pdf)
+- [Image Style Transfer](https://pdfs.semanticscholar.org/7568/d13a82f7afa4be79f09c295940e48ec6db89.pdf)
 - (Reconstruction-based AD) [Anomaly Detection in DBMSs](https://arxiv.org/abs/1708.02635)
 - (ICLR2018 under-review) [ADGAN](https://openreview.net/forum?id=S1EfylZ0Z)
