@@ -527,6 +527,7 @@ class DCGAN(object):
         samples = (np.array(samples)+1)*127.5
 	if not self.grayscale:
           errors = np.mean(np.squeeze(errors),axis=2)
+        errors = (np.array(errors)+1)*127.5
 
         _path = './test_data/'
         path = os.path.join(_path, config.test_result_dir)
@@ -534,7 +535,7 @@ class DCGAN(object):
           os.mkdir(path)
         filename = ['AD_'+str(epoch)+'_'+test_data_name.split('/')[-1], 'AD_error_'+str(epoch)+'_'+test_data_name.split('/')[-1]]
 
-        scipy.misc.imsave(os.path.join(path,filename[0]),inverse_transform(samples))
+        scipy.misc.imsave(os.path.join(path,filename[0]),samples)
         scipy.misc.imsave(os.path.join(path,filename[1]),errors)
         #np.save('./{}/test_error_{}_{:02d}.png'.format(config.test_dir, test_data_name, epoch), errors)
 
