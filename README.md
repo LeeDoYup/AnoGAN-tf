@@ -1,3 +1,3 @@
 # AnoGAN
 Implementation of AnoGAN (Anomaly GAN)
-\\( \epsilon \\)
+![equ](https://latex.codecogs.com/gif.latex?%5Cepsilon)
