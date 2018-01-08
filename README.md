@@ -11,9 +11,13 @@ Basic structure of this implementation is based on his implementations.
 
 ## Model Description
 After learn DCGAN model with normal dataset (not contains anomalies), Anomaly Detector calculates anomaly score of unseen images.
+
+
 ![Model Structure](./assets/model_structure.jpeg)
 
 Below picture is from the paper, describing DCGAN model and anomaly results.
+
+
 ![result](./assets/gan.jpeg)
 
 When unseen data comes, the model tries to find latent variable z that generates input image using backpropagation. (similar with style transfer)
@@ -23,9 +27,13 @@ Anomaly Score is based on residual and discrimination losses.
 - Discrimination loss: L1 distacne between hidden representations of generated and test image, extracted by discriminators.
 
 ![Res_Loss](./assets/res_loss.jpeg)
+
+
 ![Discrimination Loss](./assets/dis_loss.jpeg)
 
 Total Loss for finding latent variable z is weighted sum of the two. (defualt lambda = 0.1)
+
+
 ![Total Loss](./assets/t_loss.jpeg)
 
 ## File Descriptions
