@@ -7,7 +7,9 @@ This model detect anomaly part in images, after training DCGAN with normal datas
 Basic model is DCGAN (Deep Convolutional Generative Adversarial Networks).
 
 Thanks for github.com/carpedm20, cuz he share basic guide line to implement DCGAN.
+
 Basic structure of this implementation is based on his implementations.
+
 *(Anomaly Detection of MNIST is not yet available)
 
 ## Model Description
