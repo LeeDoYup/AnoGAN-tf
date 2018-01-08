@@ -1,6 +1,7 @@
 # AnoGAN in tensorflow
 
 Tensorflow implementation of [Anomaly GAN (AnoGAN)](https://arxiv.org/abs/1703.05921).
+
 This model detect anomaly part in images, after training DCGAN with normal dataset.
 
 Basic model is DCGAN (Deep Convolutional Generative Adversarial Networks).
