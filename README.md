@@ -14,7 +14,7 @@ After learn DCGAN model with normal dataset (not contains anomalies), Anomaly De
 ![Model Structure](./assets/model_structure.jpeg)
 
 Below picture is from the paper, describing DCGAN model and anomaly results.
-![result](./assets/gan.jped)
+![result](./assets/gan.jpeg)
 
 When unseen data comes, the model tries to find latent variable z that generates input image using backpropagation. (similar with style transfer)
 
