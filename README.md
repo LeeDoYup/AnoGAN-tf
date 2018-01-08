@@ -89,6 +89,17 @@ After having trained DCGAN model, you have to prepare test images for anomaly de
     $ python main.py --dataset DATASET_NAME --input_height=108 --crop --anomaly_test
 
 ## Results
+To valid the model implementation, simple test was proceeded.
+
+Initial generated image by DCGAN in training is conisdered as anomaly.
+
+After learns DCGAN model, compared final and initial images on certain latent varaible z.
+
+Then, anomaly score of initial images was calculated.
+
+Eyes, mouth, and distorted parts in image were detected.
+
+![result](./assets/result_example.jpeg)
 
 ## Related works
 - [Image Style Trnasfer](https://pdfs.semanticscholar.org/7568/d13a82f7afa4be79f09c295940e48ec6db89.pdf)
