@@ -20,10 +20,6 @@ After learn DCGAN model with normal dataset (not contains anomalies),
 
 ![Model Structure](./assets/model_structure.jpeg)
 
-Below picture is from the paper, describing DCGAN model and anomaly results.
-
-
-![result](./assets/gan.jpeg)
 
 When unseen data comes, the model tries to find latent variable z that generates input image using backpropagation. (similar with style transfer)
 
@@ -94,3 +90,7 @@ After having trained DCGAN model, you have to prepare test images for anomaly de
 
 ## Results
 
+## Related works
+- [Image Style Trnasfer](https://pdfs.semanticscholar.org/7568/d13a82f7afa4be79f09c295940e48ec6db89.pdf)
+- (Reconstruction-based AD) [Anomaly Detection in DBMSs](https://arxiv.org/abs/1708.02635)
+- (ICLR2018 under-review) [ADGAN](https://openreview.net/forum?id=S1EfylZ0Z)
