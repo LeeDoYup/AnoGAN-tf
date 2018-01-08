@@ -13,7 +13,8 @@ Basic structure of this implementation is based on his implementations.
 *(Anomaly Detection of MNIST is not yet available)
 
 ## Model Description
-After learn DCGAN model with normal dataset (not contains anomalies), Anomaly Detector calculates anomaly score of unseen images.
+After learn DCGAN model with normal dataset (not contains anomalies), 
+**Anomaly Detector calculates anomaly score of unseen images.
 
 
 ![Model Structure](./assets/model_structure.jpeg)
