@@ -4,6 +4,8 @@ Tensorflow implementation of [Anomaly GAN (AnoGAN)](https://arxiv.org/abs/1703.0
 
 This model detect anomaly part in images, after training DCGAN with normal dataset.
 
+(In Korean, H. Kim's detail explanation is [here](https://www.slideshare.net/ssuser06e0c5/anomaly-detection-with-gans))
+
 Basic model is DCGAN (Deep Convolutional Generative Adversarial Networks).
 
 * (Anomaly Detection of MNIST is not yet available)
