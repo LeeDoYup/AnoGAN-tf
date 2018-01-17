@@ -105,9 +105,9 @@ Eyes, mouth, and distorted parts in image were detected.
 - (ICLR2018 under-review) [ADGAN](https://openreview.net/forum?id=S1EfylZ0Z)
 
 ## To Do
-[ ] Threshold Setting Function (Manual/Automatic)
-[ ] Add performance measures of anomaly detection with labels (ROC AUC)
-[ ] Visaulization of anomaly detection results (t-SNE)
+- [ ] Threshold Setting Function (Manual/Automatic)
+- [ ] Add performance measures of anomaly detection with labels (ROC AUC)
+- [ ] Visaulization of anomaly detection results (t-SNE)
 
 ## Acknowledgement
 - Thanks for @carpedm20 's implementation of [DCGAN](https://github.com/carpedm20/DCGAN-tensorflow). I implemented AnoGAN based on his implementation.
