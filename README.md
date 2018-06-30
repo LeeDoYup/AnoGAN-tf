@@ -105,6 +105,7 @@ Eyes, mouth, and distorted parts in image were detected.
 - (ICLR2018 under-review) [ADGAN](https://openreview.net/forum?id=S1EfylZ0Z)
 
 ## To Do
+### You can always request pull requests with feeling free.
 - [ ] Threshold Setting Function (Manual/Automatic)
 - [ ] Add performance measures of anomaly detection with labels (ROC AUC)
 - [ ] Visaulization of anomaly detection results (t-SNE)
